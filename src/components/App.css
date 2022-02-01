@@ -19,6 +19,25 @@ a:not([href]):not([tabindex]){
     
 
 }
+.boton2{
+
+    margin-top:10px;
+}
+.boton2 {
+    color: #318aac !important;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0.5em 1.2em;
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-color: #318aac;
+    transition: all 1s ease;
+    position: relative;
+  }
+  .boton2:hover {
+    background: #318aac;
+    color: #fff !important;
+  }
 .video{
     position:relative;
     top: 1px;
